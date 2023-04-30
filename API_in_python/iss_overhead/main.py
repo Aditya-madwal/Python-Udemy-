@@ -28,6 +28,7 @@ sunset = int(data["results"]["sunset"].split("T")[1].split(":")[0])
 
 time_now = datetime.now()
 
+print(sunrise)
 #If the ISS is close to my current position
 # and it is currently dark
 # Then send me an email to tell me to look up.
